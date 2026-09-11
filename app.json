@@ -7,7 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "theekzu",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.theekzu.mobile"
@@ -39,6 +41,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c97c60d8-dc36-48b1-8e0a-1781b085900b"
+      }
     }
   }
 }
